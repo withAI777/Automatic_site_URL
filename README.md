@@ -25,7 +25,7 @@
 | 谷歌浏览器| [点此下载](https://www.google.com/intl/zh-CN/chrome/)| 必须基于谷歌浏览器实现自动site |
 | ChromeDriver| [点此下载](https://chromedriver.chromium.org/downloads)      | 浏览器自动化site的必要依赖 |
 
-### [点此下载压缩包]()
+### [点此下载主程序压缩包]()
 解压到任意文件夹，你会得到四个文件，分别是`数据表格`文件夹，`_internal`文件夹，`保存自己文章的数据到表格.js`，`主程序.exe`
 | 文件名称 | 作用 |
 |---|---|
