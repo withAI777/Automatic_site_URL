@@ -86,4 +86,5 @@ import random
 ```
 
 ## 后记
-如果对你有用的话，万水千山总是情，打赏一元行不行
+如果对你有用的话，[打赏一元](https://github.com/withAI777/Automatic_site_URL/tree/main/%E8%AF%B7%E7%8B%A0%E7%8B%A0%E6%89%93%E8%B5%8F%E6%88%91)行不行<br>
+代码及注释使用chatGPT+手工编写
