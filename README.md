@@ -111,7 +111,6 @@
 fake_useragent库打包为exe后，运行程序会报错导入失败，故将相关代码注释，但因此会加大被反爬的可能，导致原本能遍历约80个URL才被反爬，现在遍历约50-60个就会被反爬
 ```python
 from fake_useragent import UserAgent
-import random
 # 生成随机的User-Agents --- 打包为exe后有问题，故注释
 # ua = UserAgent()
 # user_agent = ua.random
