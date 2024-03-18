@@ -1,3 +1,9 @@
+<p align = "center">
+<img src="https://github.com/withAI777/Automatic_site_URL/blob/main/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/logo.png">
+</p>
+
+****
+
 # Automatic_site_URL
 
 这是一个通过Google浏览器自动site URL的项目，你可以快速检索你所有的文章是否被收录，并且可视化的呈现表格，方便你决定哪些文章是否应该修改/优化
