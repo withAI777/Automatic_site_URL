@@ -41,7 +41,9 @@
 <p align = "center">
 <img src="https://github.com/withAI777/Automatic_site_URL/blob/main/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/%E6%B7%BB%E5%8A%A0%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC.jpg">
 </p>
-![image](https://github.com/withAI777/Automatic_site_URL/blob/main/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/%E4%BF%AE%E6%94%B9%E4%BB%A3%E7%A0%81%E7%AC%AC7%E8%A1%8C.jpg)
+<p align = "center">
+<img src="https://github.com/withAI777/Automatic_site_URL/blob/main/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/%E4%BF%AE%E6%94%B9%E4%BB%A3%E7%A0%81%E7%AC%AC7%E8%A1%8C.jpg">
+</p>
 
 ### 启动脚本，刷新页面，会自动爬取一系列数据表
 - 启动脚本后，会在油猴脚本上显示一个红色的1
