@@ -83,17 +83,17 @@
 [python源代码](https://github.com/withAI777/Automatic_site_URL/blob/main/%E4%B8%BB%E7%A8%8B%E5%BA%8F.py)
 
 ### 部分源代码释意
-- 通过在页面等待随机2-5秒，尽可能的模拟真实用户，避免被反爬
+通过在页面等待随机2-5秒，尽可能的模拟真实用户，避免被反爬
 ```python
 # 等待页面加载完成
     time.sleep(random.uniform(2, 5))
     html_content = driver.page_source
 ```
-- 无头模式能够更方便的使用程序，但是似乎会导致搜索结果有些问题，一些URL原本被收录，但是判断为了没有被收录，故注释<br>
+无头模式能够更方便的使用程序，但是似乎会导致搜索结果有些问题，一些URL原本被收录，但是判断为了没有被收录，故注释<br>
 `# options.add_argument("--headless") # 无头模式，不显示浏览器窗口`
 
 ### 程序缺陷
-- fake_useragent库打包为exe后，运行程序会报错导入失败，故将相关代码注释，但因此会加大被反爬的可能，导致原本能遍历约80个URL才被反爬，现在遍历约50-60个就会被反爬
+fake_useragent库打包为exe后，运行程序会报错导入失败，故将相关代码注释，但因此会加大被反爬的可能，导致原本能遍历约80个URL才被反爬，现在遍历约50-60个就会被反爬
 ```python
 from fake_useragent import UserAgent
 import random
@@ -104,5 +104,5 @@ import random
 ```
 
 ## 后记
-如果对你有用的话，[打赏一元](https://github.com/withAI777/Automatic_site_URL/tree/main/%E8%AF%B7%E7%8B%A0%E7%8B%A0%E6%89%93%E8%B5%8F%E6%88%91)行不行🥰<br>
-代码及注释使用chatGPT+手工编写
+代码及注释使用chatGPT+手工编写<br>
+如果对你有用的话，[打赏一元](https://github.com/withAI777/Automatic_site_URL/tree/main/%E8%AF%B7%E7%8B%A0%E7%8B%A0%E6%89%93%E8%B5%8F%E6%88%91)行不行🥰
