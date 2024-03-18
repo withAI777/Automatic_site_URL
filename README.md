@@ -3,12 +3,12 @@
 这是一个通过Google浏览器自动site URL的项目，你可以快速检索你所有的文章是否被收录，并且可视化的呈现表格，方便你决定哪些文章是否应该修改/优化
 你**必须**安装谷歌浏览器，本程序不支持其它浏览器<br>
 
-点此查看我的文章的[示例数据](https://github.com/withAI777/Automatic_site_URL/blob/main/%E7%A4%BA%E4%BE%8B%E6%94%B6%E5%BD%95%E8%A1%A8.csv)，项目url已打码处理，第1-5列是基础数据，第6列是“是否被收录”的数据
+点此查看我的文章的部分[示例数据](https://github.com/withAI777/Automatic_site_URL/blob/main/%E7%A4%BA%E4%BE%8B%E6%94%B6%E5%BD%95%E8%A1%A8.csv)，项目url已打码处理，第1-5列是基础数据，第6列是“是否被收录”的数据
 
 ## 声明
 
 - 本程序仅供个人测试使用<br>
-- 本程序不涉及爬取任何用户隐私
+- 本程序不涉及爬取任何用户隐私数据
 
 ## 如何使用
 
@@ -79,6 +79,16 @@
 ### 源代码
 [js源代码](https://github.com/withAI777/Automatic_site_URL/blob/main/%E4%BF%9D%E5%AD%98%E8%87%AA%E5%B7%B1%E6%96%87%E7%AB%A0%E7%9A%84%E6%95%B0%E6%8D%AE%E5%88%B0%E8%A1%A8%E6%A0%BC.js)
 [python源代码](https://github.com/withAI777/Automatic_site_URL/blob/main/%E4%B8%BB%E7%A8%8B%E5%BA%8F.py)
+
+### 部分源代码释意
+- 通过在页面等待随机2-5秒，尽可能的模拟真实用户，避免被反爬
+```python
+# 等待页面加载完成
+    time.sleep(random.uniform(2, 5))
+    html_content = driver.page_source
+```
+- 无头模式能够更方便的使用程序，但是似乎会导致搜索结果有些问题，一些URL原本被收录，但是判断为了没有被收录，故注释<br>
+`# options.add_argument("--headless") # 无头模式，不显示浏览器窗口`
 
 ### 程序缺陷
 - fake_useragent库打包为exe后，运行程序会报错导入失败，故将相关代码注释，但因此会加大被反爬的可能，导致原本能遍历约80个URL才被反爬，现在遍历约50-60个就会被反爬
