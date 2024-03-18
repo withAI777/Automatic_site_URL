@@ -26,7 +26,7 @@
 | ChromeDriver| [点此下载](https://chromedriver.chromium.org/downloads)      | 浏览器自动化site的必要依赖 |
 
 ### [点此下载主程序压缩包]()
-解压到任意文件夹，你会得到四个文件，分别是`数据表格`文件夹，`_internal`文件夹，`保存自己文章的数据到表格.js`，`主程序.exe`
+解压到任意文件夹，你会得到**四个文件**，分别是`数据表格`文件夹，`_internal`文件夹，`保存自己文章的数据到表格.js`，`主程序.exe`
 | 文件名称 | 作用 |
 |---|---|
 | 数据表格 文件夹 | 该文件夹存储自己文章的数据表格 |
@@ -36,7 +36,7 @@
 
 ### 导入爬虫代码到油猴插件
 - 点击后台数据的`MINE`，复制页面URL
-- 在你刚刚复制的URL其后加一个*，以表示匹配所有页面
+- **在你刚刚复制的URL其后加一个***，以表示匹配所有页面
 - 打开油猴脚本，导入`保存自己文章的数据到表格.js`文件，注意修改代码`第7行`为你的文章页面的url（注意末尾加上*）
 [image](https://github.com/withAI777/Automatic_site_URL/blob/main/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/%E6%B7%BB%E5%8A%A0%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC.jpg)
 [image](https://github.com/withAI777/Automatic_site_URL/blob/main/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/%E4%BF%AE%E6%94%B9%E4%BB%A3%E7%A0%81%E7%AC%AC7%E8%A1%8C.jpg)
