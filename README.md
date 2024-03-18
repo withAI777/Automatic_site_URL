@@ -16,6 +16,13 @@
 - 本程序仅供个人测试使用<br>
 - 本程序不涉及爬取任何用户隐私数据
 
+## 序
+本程序代码及注释使用chatGPT+手工编写<br>
+请查看我的另一个项目：[一天写3000篇Landing Page](https://github.com/withAI777/en_state_demo_video/tree/main)<br>
+欢迎加入共创文档[交易所](https://www.yuque.com/g/u41475096/sxyaoc/collaborator/join?token=oLI3sdKe7WgMn1er&source=book_collaborator#)，任何人都可以自由上架、定价、购买对别人/对自己有用的任何东西，你可以免费赚取额外收入<br>
+由于语雀文档的限制，所以你必须**注册登录**才可以查看，但不用担心泄露隐私，因为它是**蚂蚁金服**旗下的文档知识库，并且你可以使用**完全匿名的用户名**参与文档修改和发布<br>
+如果此程序对你有用的话，[打赏一元](https://github.com/withAI777/Automatic_site_URL/tree/main/%E8%AF%B7%E7%8B%A0%E7%8B%A0%E6%89%93%E8%B5%8F%E6%88%91)行不行🥰感谢！
+
 ## 如何使用
 
 ### 下载必要插件
@@ -108,7 +115,3 @@ import random
 # user_agent = ua.random
 # options.add_argument(f"user-agent={user_agent}")
 ```
-
-## 后记
-代码及注释使用chatGPT+手工编写<br>
-如果对你有用的话，[打赏一元](https://github.com/withAI777/Automatic_site_URL/tree/main/%E8%AF%B7%E7%8B%A0%E7%8B%A0%E6%89%93%E8%B5%8F%E6%88%91)行不行🥰
