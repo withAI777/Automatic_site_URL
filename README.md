@@ -79,7 +79,7 @@
 - 通过检测是否跳转到`https://www.google.com/sorry`页面，判定是否被谷歌检测爬虫，如果是则程序结束运行
 
 ### 源代码
-[js源代码](https://github.com/withAI777/Automatic_site_URL/blob/main/%E4%BF%9D%E5%AD%98%E8%87%AA%E5%B7%B1%E6%96%87%E7%AB%A0%E7%9A%84%E6%95%B0%E6%8D%AE%E5%88%B0%E8%A1%A8%E6%A0%BC.js)
+[js源代码](https://github.com/withAI777/Automatic_site_URL/blob/main/%E4%BF%9D%E5%AD%98%E8%87%AA%E5%B7%B1%E6%96%87%E7%AB%A0%E7%9A%84%E6%95%B0%E6%8D%AE%E5%88%B0%E8%A1%A8%E6%A0%BC.js)<br>
 [python源代码](https://github.com/withAI777/Automatic_site_URL/blob/main/%E4%B8%BB%E7%A8%8B%E5%BA%8F.py)
 
 ### 部分源代码释意
