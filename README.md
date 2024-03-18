@@ -25,7 +25,7 @@
 | 谷歌浏览器| [点此下载](https://www.google.com/intl/zh-CN/chrome/)| 必须基于谷歌浏览器实现自动site |
 | ChromeDriver| [点此下载](https://chromedriver.chromium.org/downloads)      | 浏览器自动化site的必要依赖 |
 
-### [点此下载主程序压缩包]()
+### [点此下载主程序压缩包](https://github.com/withAI777/Automatic_site_URL/raw/main/%E6%89%B9%E9%87%8F%E8%87%AA%E5%8A%A8%E5%8C%96site_URL.zip)
 解压到任意文件夹，你会得到**四个文件**，分别是`数据表格`文件夹，`_internal`文件夹，`保存自己文章的数据到表格.js`，`主程序.exe`
 | 文件名称 | 作用 |
 |---|---|
@@ -38,12 +38,12 @@
 - 点击后台数据的`MINE`，复制页面URL
 - **在你刚刚复制的URL其后加一个***，以表示匹配所有页面
 - 打开油猴脚本，导入`保存自己文章的数据到表格.js`文件，注意修改代码`第7行`为你的文章页面的url（注意末尾加上*）
-[image](https://github.com/withAI777/Automatic_site_URL/blob/main/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/%E6%B7%BB%E5%8A%A0%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC.jpg)
-[image](https://github.com/withAI777/Automatic_site_URL/blob/main/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/%E4%BF%AE%E6%94%B9%E4%BB%A3%E7%A0%81%E7%AC%AC7%E8%A1%8C.jpg)
+![image](https://github.com/withAI777/Automatic_site_URL/blob/main/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/%E6%B7%BB%E5%8A%A0%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC.jpg)
+![image](https://github.com/withAI777/Automatic_site_URL/blob/main/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/%E4%BF%AE%E6%94%B9%E4%BB%A3%E7%A0%81%E7%AC%AC7%E8%A1%8C.jpg)
 
 ### 启动脚本，刷新页面，会自动爬取一系列数据表
 - 启动脚本后，会在油猴脚本上显示一个红色的1
-[image](https://github.com/withAI777/Automatic_site_URL/blob/main/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/%E5%90%AF%E5%8A%A8%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC.jpg)
+![image](https://github.com/withAI777/Automatic_site_URL/blob/main/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/%E5%90%AF%E5%8A%A8%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC.jpg)
 - 爬取的所有数据表格按照顺序会从“1.xlsx” - “最后一页.xlsx”进行命名
 - **爬取完毕所有数据表格后，将它们全部放在解压后的`数据表格`文件夹内**
 
@@ -74,6 +74,10 @@
 - 使用`python`基于selenium库和chromedriver编写爬虫模拟用户操作，通过遍历数据表格的第一列，依次进行自动化site操作。
 - 通过检测是否跳转到`https://www.google.com/sorry`页面，判定是否被谷歌检测爬虫，如果是则程序结束运行
 
+### 源代码
+[js源代码](https://github.com/withAI777/Automatic_site_URL/blob/main/%E4%BF%9D%E5%AD%98%E8%87%AA%E5%B7%B1%E6%96%87%E7%AB%A0%E7%9A%84%E6%95%B0%E6%8D%AE%E5%88%B0%E8%A1%A8%E6%A0%BC.js)
+[python源代码](https://github.com/withAI777/Automatic_site_URL/blob/main/%E4%B8%BB%E7%A8%8B%E5%BA%8F.py)
+
 ### 程序缺陷
 - fake_useragent库打包为exe后，运行程序会报错导入失败，故将相关代码注释，但因此会加大被反爬的可能，导致原本能遍历约80个URL才被反爬，现在遍历约50-60个就会被反爬
 ```python
@@ -86,5 +90,5 @@ import random
 ```
 
 ## 后记
-如果对你有用的话，[打赏一元](https://github.com/withAI777/Automatic_site_URL/tree/main/%E8%AF%B7%E7%8B%A0%E7%8B%A0%E6%89%93%E8%B5%8F%E6%88%91)行不行<br>
+如果对你有用的话，[打赏一元](https://github.com/withAI777/Automatic_site_URL/tree/main/%E8%AF%B7%E7%8B%A0%E7%8B%A0%E6%89%93%E8%B5%8F%E6%88%91)行不行🥰<br>
 代码及注释使用chatGPT+手工编写
