@@ -4,6 +4,8 @@
 
 ## 如何使用
 | 插件名称 | 下载链接 | 作用 |
-| :---：| :---:      |    :---: |
+| ---| ---      |    --- |
 | 油猴脚本   | [点此下载](https://chromewebstore.google.com/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh)     | 爬取自己文章的数据    |
 | git diff     | git diff       | git diff      |
+
+
