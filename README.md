@@ -84,7 +84,7 @@
 - 由于谷歌反爬虫限制，此程序不能一次完成所有URL的site，一次大概能批量site60个URL，然后如果检测到被谷歌反爬虫，那么会输出`xx已被检测反爬，请切换代理节点后重新运行程序。`，此时请**关闭浏览器和命令行窗口，切换代理IP，重新运行程序**，或者等待一会重新运行程序，程序会自动从上次被反爬的URL的位置开始继续运行
 - 所有文章的URL site完毕后，会自动输出`所有URL已site完毕`，然后自动关闭程序
 
-## 如程序有问题或其它错误，请[在此提交反馈](https://github.com/withAI777/Automatic_site_URL/issues)
+### 如程序有问题或其它错误，请[在此提交反馈](https://github.com/withAI777/Automatic_site_URL/issues)
 
 ## 开发者阅读
 
